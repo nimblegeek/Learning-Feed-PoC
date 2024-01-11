@@ -1,4 +1,3 @@
-
 class Coach {
   constructor(name, job) {
     this.name = name;
@@ -11,5 +10,5 @@ class Coach {
   }
 }
 
-const thatCoach = new Coach("John Doe", "Software Engineer");
+const thatCoach = new Coach("John Doe", "Jiu Jitsu Coach");
 thatCoach.print();
