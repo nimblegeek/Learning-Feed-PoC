@@ -1,8 +1,6 @@
 # HTML, CSS, JS (Auto Refresh)
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
-
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
+This project is based on a template, used as a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
 
 ## Disable Auto Refresh
 
