@@ -1,5 +1,7 @@
 # HTML, CSS, JS (Auto Refresh)
 
+This project is created as a proof of concept to see if I can use it as a boilerplate for "The Learning Feed", a testimonial app for students and coaches for accelerated learning.
+
 This project is based on a template, used as a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
 
 ## Disable Auto Refresh
