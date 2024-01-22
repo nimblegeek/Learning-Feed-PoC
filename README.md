@@ -4,6 +4,9 @@ This project is created as a proof of concept to see if I can use it as a boiler
 
 This project is based on a template, used as a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
 
+## Database and backend logic
+For the database and backend logic, this project utilizes PostgreSQL, backed by [Neon](https://neon.tech/docs/connect/connect-from-any-app#connection-examples).
+
 ## Disable Auto Refresh
 
 If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
@@ -20,7 +23,7 @@ export default defineConfig({
 
 ## Packages
 
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
+Because this template uses Vite to build your code, you can add install and use npm packages. Simply open the Packager tool to search and manage your packages.
 
 ## Learn More
 
