@@ -1,3 +1,8 @@
+fetch("/api/data")
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error("Error:", error));
+
 class Coach {
   constructor(name, job) {
     this.name = name;
@@ -21,25 +26,25 @@ function fetchCoachData(coachId) {
     // Simulate database call with timeout
     setTimeout(() => {
       if (coachId) {
-        resolve({ name: 'Jane Doe', job: 'Yoga Coach' });
+        resolve({ name: "Jane Doe", job: "Yoga Coach" });
       } else {
-        reject('Coach not found');
+        reject("Coach not found");
       }
     }, 1000);
   });
 }
 
 // Event listener for a-tags
-const cards = document.querySelectorAll('.card');
-cards.forEach(card => {
-  card.addEventListener('click', function(event) {
+const cards = document.querySelectorAll(".card");
+cards.forEach((card) => {
+  card.addEventListener("click", function (event) {
     event.preventDefault();
-    const coachId = this.getAttribute('data-coach-id');
+    const coachId = this.getAttribute("data-coach-id");
     fetchCoachData(coachId)
-      .then(coachData => {
+      .then((coachData) => {
         const newCoach = new Coach(coachData.name, coachData.job);
         newCoach.print();
       })
-      .catch(error => console.error(error));
+      .catch((error) => console.error(error));
   });
 });
